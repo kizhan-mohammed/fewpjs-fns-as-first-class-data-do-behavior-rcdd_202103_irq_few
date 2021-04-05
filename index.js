@@ -10,21 +10,21 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-/* Write your implementation of displayMessage() */
-let time = "HH:MM"
+
 function greet(time) {
-  if (time<12:00) {
-    return `SGood Morning`;
+  time = time.split(":");
+  time =parseInt("time");
+  if (time<12) {
+    return `Good Morning`;
   }
-  if (time>12:00 && time<17:00) {
+  else if (time>12 && time<17) {
     return`Good Afternoon`;
   }
-  if (time>17:00){
+  else {
     return`Good Evening`;
   }
 }
-function greet();
+/* Write your implementation of displayMessage() */
 
 function displayMessage(time){
-  if(time ==="HH:MM" ){
-}
+  let greetingInside = document.querySelector("h1#greeting");
