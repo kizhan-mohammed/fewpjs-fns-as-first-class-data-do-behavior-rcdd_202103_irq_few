@@ -28,3 +28,5 @@ function greet(time) {
 
 function displayMessage(time){
   let greetingInside = document.querySelector("h1#greeting");
+  greetingInside.innerText = greeting;
+}
