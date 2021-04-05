@@ -11,3 +11,20 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
+let time = "HH:MM"
+function greet(time) {
+  if (time<12:00) {
+    return `SGood Morning`;
+  }
+  if (time>12:00 && time<17:00) {
+    return`Good Afternoon`;
+  }
+  if (time>17:00){
+    return`Good Evening`;
+  }
+}
+function greet();
+
+function displayMessage(time){
+  if(time ==="HH:MM" ){
+}
